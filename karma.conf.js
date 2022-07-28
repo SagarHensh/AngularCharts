@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/srmb-dash-chart'),
+      dir: require('path').join(__dirname, './coverage/angularmapdemo'),
       subdir: '.',
       reporters: [
         { type: 'html' },
